@@ -8,18 +8,19 @@
 // console.log (jojo)
 // document. querySelector ("#one").innerHTML= 666;
 // document.querySelector("p").innerHTML="ВЕСНА СТИХ!"
-let inputIN=document.querySelector("text")
-let btn=document.querySelector("chek-in")
-    btn.onclick= function () {
-        console.log("DA")
-        console.log (inputIN.value)
+
+let inputIN = document.querySelector("text")
+let btn = document.querySelector("chek-in")
+    btn .onclick = function () {
+        console.log("DA")   
     }
 
-let div= document.querySelector("out")
+ let div= document.querySelector("out")
 
-     btn.onclick= function () {
-        console.log("DA")
-        console.log (inputIN.value)
-        let e = +inputIN.value
-        console.log(e)
-    }
+      btn.onclick= function () {
+         console.log("DA")
+         console.log (inputIN.value)
+         let e = +inputIN.value
+         console.log(e)
+         div.innerHTML = e
+     }
